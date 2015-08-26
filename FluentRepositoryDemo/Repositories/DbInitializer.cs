@@ -14,9 +14,9 @@ namespace FluentRepositoryDemo.Repositories
                 new Car { Brand = CarBrand.Cadillac, Model = "CTS", RentalPricePerDay = 80, Status = CarStatus.Reserved },
                 new Car { Brand = CarBrand.Chevrolet, Model = "Corvette Stingray", RentalPricePerDay = 85, Status = CarStatus.Available },
                 new Car { Brand = CarBrand.Ford, Model = "Mustang GT", RentalPricePerDay = 70, Status = CarStatus.Available },
-                new Car { Brand = CarBrand.Honda, Model = "Accord", RentalPricePerDay = 60, Status = CarStatus.Available },
+                new Car { Brand = CarBrand.Honda, Model = "Accord", RentalPricePerDay = 60, Status = CarStatus.Rented },
                 new Car { Brand = CarBrand.Mazda, Model = "3", RentalPricePerDay = 65, Status = CarStatus.Rented },
-                new Car { Brand = CarBrand.BMW, Model = "6", RentalPricePerDay = 70, Status = CarStatus.Rented },
+                new Car { Brand = CarBrand.BMW, Model = "i8", RentalPricePerDay = 70, Status = CarStatus.Available },
                 new Car { Brand = CarBrand.Porsche, Model = "Boxster", RentalPricePerDay = 90, Status = CarStatus.Available }
             };
 

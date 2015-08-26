@@ -34,7 +34,7 @@ namespace FluentRepositoryDemo.Repositories.QueryBuilder
 
         public CarQueryBuilder WithMaximumPriceOf(decimal maxPrice)
         {
-            Query.Where(car => car.RentalPricePerDay <= maxPrice);
+            Query = Query.Where(car => car.RentalPricePerDay <= maxPrice);
 
             return this;
         }

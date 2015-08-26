@@ -59,6 +59,7 @@
     <Compile Include="Repositories\CarRepository.cs" />
     <Compile Include="Repositories\DbInitializer.cs" />
     <Compile Include="Repositories\DemoDbContext.cs" />
+    <Compile Include="Repositories\ICarRepository.cs" />
     <Compile Include="Repositories\ISupportFluentQuery.cs" />
     <Compile Include="Repositories\Mapping\CarMap.cs" />
     <Compile Include="Repositories\QueryBuilder\CarQueryBuilder.cs" />

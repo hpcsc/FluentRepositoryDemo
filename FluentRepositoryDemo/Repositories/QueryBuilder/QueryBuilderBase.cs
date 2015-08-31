@@ -4,12 +4,7 @@ using System.Linq;
 
 namespace FluentRepositoryDemo.Repositories.QueryBuilder
 {
-    public abstract class QueryBuilderBase
-    {
-
-    }
-
-    public abstract class QueryBuilderBase<T> : QueryBuilderBase where T : class
+    public abstract class QueryBuilderBase<T> : IAmQueryBuilder where T : class
     {
         protected IQueryable<T> Query;
         protected QueryBuilderBase(DbContext context)

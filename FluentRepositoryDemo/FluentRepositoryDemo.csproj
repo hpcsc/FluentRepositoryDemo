@@ -63,6 +63,7 @@
     <Compile Include="Repositories\ISupportFluentQuery.cs" />
     <Compile Include="Repositories\Mapping\CarMap.cs" />
     <Compile Include="Repositories\QueryBuilder\CarQueryBuilder.cs" />
+    <Compile Include="Repositories\QueryBuilder\IAmQueryBuilder.cs" />
     <Compile Include="Repositories\QueryBuilder\QueryBuilderBase.cs" />
   </ItemGroup>
   <ItemGroup />
